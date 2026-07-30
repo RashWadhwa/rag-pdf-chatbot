@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+logs/
+backend/storage/uploads/*
+backend/storage/faiss_index/*
+.idea/
+.vscode/

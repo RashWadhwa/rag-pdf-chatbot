@@ -1,0 +1,28 @@
+# Python environment
+venv/
+.venv/
+
+# Git metadata
+.git/
+.gitignore
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+
+# Notebook artifacts
+.ipynb_checkpoints/
+**/*.ipynb
+
+# Local data and generated files
+data/
+logs/
+images/
+backend/storage/uploads/
+backend/storage/faiss_index/
+
+# Archive and document files
+**/*.csv
+**/*.pdf
+**/*.md
+**/*.zip
