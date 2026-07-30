@@ -1,6 +1,12 @@
 # RAG PDF Chatbot
 
-Production-ready Retrieval Augmented Generation application.
+## Overview, challenges, and approach to tackel those challenges.
+
+I built a containerized RAG PDF chatbot application that lets users upload one or more PDF files, index them into a FAISS vector store, and ask natural-language questions against the uploaded content. The backend is a FastAPI service that handles document ingestion, splitting, embedding, retrieval, health checks, and query orchestration using Google Gemini models. The frontend is a Streamlit app that provides the user interface for uploads, document management, chat interactions, and source citations.
+
+Along the way, I tightened the developer and deployment experience: the project now runs cleanly with Docker Compose, uses a proper .dockerignore to keep the build context lean, and has updated documentation with the correct local URLs and compose commands. I also fixed a frontend runtime issue so the Streamlit container starts correctly, making the whole stack reproducible and easy to run locally.
+
+[Demo]()
 
 ## Stack
 
